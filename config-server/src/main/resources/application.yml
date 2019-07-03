@@ -10,5 +10,5 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/Leetianqi/springcloud.git
+          uri: https://github.com/Leetianqi/springcloud
           searchPaths: respo
