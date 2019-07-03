@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
         <module name="eureka-server" />
         <module name="eurekaServer" />
         <module name="product-data-service" />
         <module name="product-view-service-fegin" />
-        <module name="springcloud" />
       </profile>
       <profile name="Annotation profile for springcloud" enabled="true">
         <sourceOutputDir name="../productviewserviceribbon/target/generated-sources/annotations" />
@@ -20,9 +20,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-server" target="1.7" />
       <module name="eureka-server" target="1.8" />
       <module name="product-data-service" target="1.8" />
-      <module name="product-view-service-fegin" target="1.8" />
+      <module name="product-view-service-fegin" target="1.7" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
