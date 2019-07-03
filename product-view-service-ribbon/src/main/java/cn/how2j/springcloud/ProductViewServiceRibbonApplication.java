@@ -63,5 +63,5 @@ public class ProductViewServiceRibbonApplication {
     RestTemplate restTemplate() {
         return new RestTemplate();
     }
-
+    //修改一下，以此来验证git的提交和更新
 }
