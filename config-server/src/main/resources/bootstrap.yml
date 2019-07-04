@@ -6,7 +6,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/how2j/springcloudConfig/
+          uri: https://github.com/Leetianqi/springcloud.git
           searchPaths: respo
 #          uri: https://github.com/Leetianqi/springcloud
 #          searchPaths: respo
